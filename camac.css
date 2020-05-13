@@ -1,0 +1,421 @@
+h1 {
+	text-align: center;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(camac_bg.png) ;
+	margin: 0;
+	padding-bottom: 60px;
+	/*outline:1px solid red;*/
+}
+
+footer div  {
+	border-bottom: 1px solid #444;
+	height: 20px;
+	/*outline:1px solid gray;*/
+}
+
+footer {
+	clear: left;
+	position:absolute;
+	bottom: 0px;
+	width:800px;
+	height:60px;
+	/*outline: 1px solid blue;*/
+}
+
+
+header {
+	background-image: url(cypress2.jpg);
+	height: 251px;
+	width:800px;
+	/*outline:1px solid blue;*/
+}
+
+header img {
+	/*outline:1px solid black;*/
+	float: left;
+	padding-left: 80px;
+	padding-top: 25px;
+}
+.camac_logo {
+	font-size: 40px;
+	/*text-align: center;*/
+	font-family: georgia;
+	color: #333;
+	position: relative;
+    left: 50px;
+    top: 35px;
+    /*outline: 1px solid red;*/
+}
+
+a.camac_logo:link {
+	color: #333;
+	text-decoration:none;
+}
+
+a.camac_logo:visited {
+	color: #333;
+	text-decoration:none;
+}
+
+a.camac_logo:hover, a.camac_logo:active {
+	color: #333;
+	text-decoration:none;
+}
+
+/*======================HORIZONTAL NAV BAR ======================*/
+nav {
+	font-family: courier new, arial, sans-serif;
+	font-size: 1.2em;
+    background-color: #A3BACA;
+    margin: 0;    
+    text-align: center;
+	padding: 5px 0 5px 0;
+	width:800px;
+    /*outline: 1px solid black;*/
+}
+nav ul {
+	/*outline: 1px solid orange;*/
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    /*outline: 1px solid blue;*/
+}
+
+nav a:link, nav a:visited {
+    color: #333;
+    background-color: #A3BACA;
+    text-decoration:none;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.1em;
+    /*border-right: 1px solid #333;*/
+    text-align: center;
+    /*outline:1px solid yellow;*/
+}
+
+.navcurrent {
+    color: #ddd;
+    background-color: #7098B4;
+    text-decoration:none;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 15px 5px 15px ;
+    font-size: 1.1em;
+    text-align: center;
+    /*border-right: 1px solid #333;*/
+    /*outline:1px solid red;*/
+}
+
+nav a:hover, nav a:active {
+    text-decoration: none;
+    color:#ddd;
+    background-color: #7098B4;
+    margin: 0;
+}
+
+nav {
+	text-align: center;
+}
+
+table {
+	margin:auto;
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table td, table tr{
+	padding: 0;
+	margin: 0;
+}
+
+/*======================VERTICAL NAV BAR ======================*/
+div.vertical_nav  {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	float: left;
+	/*outline: 1px solid yellow ;*/
+}
+
+div.vertical_nav tr {
+	border-top: 1px solid #333;
+}
+
+.vertical_navcurrent {
+	color: #333;
+	background-color: #fff;
+	font-weight: bold;
+	font-family: courier new;
+	text-decoration: none;
+	font-size: 1.1em;
+	padding: 10px;
+	display: block;
+}
+
+div.vertical_nav a:link, div.vertical_nav a:visited {
+	color: #ddd;
+	background-color: #7098B4;
+	font-weight: bold;
+	font-family: courier new;
+	text-decoration: none;
+	font-size: 1.1em;
+	padding: 10px;
+	display: block;
+}
+
+div.vertical_nav a:hover, div.vertical_nav a:active {
+	background-color: #fff;
+	color: #333;
+	text-decoration: none;
+}
+
+/*===========ID AND CLASSES===============*/
+
+#wrapper {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:100%; 	
+   	position:relative;
+   	/*outline: 1px solid red;*/
+   	/*background-image: url(images/accurate.jpg);*/
+   	/*background-color: black;*/
+}
+
+.navigation_intro {
+	padding-left: 10px;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+
+.navigation_intro li {
+	padding: 2px;
+}
+
+.camac_intro {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+
+.about_intro {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+
+.news_intro {
+	padding-left: 10px;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+
+.contact_intro {
+	padding-left: 10px;
+	font-family: verdana;
+	font-size: 0.9em;
+}
+.nonwoven_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.sofa_fittings_intro {
+	margin-left: 25%;
+	padding-bottom: 10px;
+	font-family: courier new;
+}
+
+
+.sofa_fittings_table_img {
+	float: left;
+	margin: 10px 0px 10px 33px;
+}
+
+.sofa_fittings_table_img td {
+	margin:1px;
+	padding: 1px;
+	border-spacing: 1px;
+	border-collapse: separate;
+	border-width: 2px;
+	padding: 5px;
+}
+
+.camac_intro img {
+	float:right;
+}
+
+.nonwoven_intro img {
+	padding-top: 25px;
+	padding-left: 220px;
+}
+
+.product_intro img {
+	padding-top: 25px;
+	padding-left: 120px;
+}
+
+.sofa_sleeper_intro img {
+	padding-top: 50px;
+	padding-left: 90px;
+}
+
+.sofa_webbing_intro img {
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.title {
+	padding-top:15px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 40px;
+	font-family: courier new;
+}
+
+.sinous_spring_table {
+	float: left;
+	margin: 10px 40px 10px 40px;
+}
+
+.sinous_spring_table td, .sinous_spring_table th {
+	margin:1px;
+	padding: 1px;
+	border-spacing: 1px;
+	border-collapse: separate;
+	border-color: black;
+	border-width: 2px;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	font-family: courier new;
+	font-size: 0.9em;
+}
+
+.sinous_spring_table_img {
+	margin: 10px;
+}
+
+.sinuous_springs_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.sofa_legs_table_img {
+	margin-top:50px;
+	border-collapse: separate;
+	border-spacing: 4px;
+}
+
+.gas_spring_table_img {
+	margin-top:50px;
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+.sofa_legs_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.sofa_webbing_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.gas_spring_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.fiber_pad_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.sofa_sleeper_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+.product_intro {
+	margin-left: 25%;
+	font-family: courier new;
+}
+
+.fiber_pad_intro img {
+	padding-left: 160px;
+	padding-top: 20px;
+}
+
+.image_left {
+	float: left;
+}
+
+label {
+	font-weight: bold;
+	padding: 5px;
+}
+
+input , textarea {
+	margin: 5px;
+}
+
+.inquiry_input {
+	margin-left: 64px;
+}
+
+.email_input {
+	margin-left: 33px;
+}
+
+.align_top {
+	float: left;
+}
+
+.fieldcol label {
+	font-weight: normal;
+}
+
+.interest_label {
+	font-weight: bold;
+	/*outline: 1px solid red;*/
+	padding-top: 20px;
+}
+
+.search_input {
+	margin: 110px  0 0 0;
+	margin-left: 600px;
+	height: 15px;
+	width: 150px;
+	font-family: verdana;
+	font-size: 1.0em;
+	border: 2px solid gray;
+	padding: 2px;
+}
+
+.search_button {
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	height: 20px;
+	
+	/*outline: 1px solid red;*/
+}
